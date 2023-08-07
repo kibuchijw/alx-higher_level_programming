@@ -25,3 +25,7 @@ The exercises herein cover various concepts of the introductory phase of ALX SE 
 ## Print String
 
 * Python script that prints a string 3 times
+
+## Play with Strings
+
+* Python script that concatenates strings
