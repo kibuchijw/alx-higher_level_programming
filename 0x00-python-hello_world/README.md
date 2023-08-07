@@ -1,4 +1,4 @@
-#Python - Hello, World
+# Python - Hello, World
 
 The exercises herein cover various concepts of the introductory phase of ALX SE stint two
 
