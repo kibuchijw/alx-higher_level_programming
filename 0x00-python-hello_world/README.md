@@ -17,3 +17,7 @@ The exercises herein cover various concepts of the introductory phase of ALX SE 
 ##3 - Print Integer
 
 * Python script that prints integer and string using f-strings
+
+##4 - Print Float
+
+* Python script that print float to specified decimal point
