@@ -1,15 +1,19 @@
-#0x00-python-hello_world
+#0x00 Python - Hello, World
 
 The exercises herein cover various concepts of the introductory phase of ALX SE stint two
 
-##0-run
+##0 - Run
 
 * A Shell script that runs a Python script
 
-##1-run_inline
+##1 - Run Inline
 
 * A Shell script that runs Python code
 
-##2-print.py
+##2 - Print String
 
-* Python print that prints a string with special characters
+* Python script that prints a string with special characters
+
+##3 - Print Integer
+
+* Python script that prints integer and string using f-strings
