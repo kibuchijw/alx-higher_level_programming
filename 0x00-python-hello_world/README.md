@@ -6,7 +6,7 @@ The exercises herein cover various concepts of the introductory phase of ALX SE 
 
 * A Shell script that runs a Python script
 
-## Run Inline
+### Run Inline
 
 * A Shell script that runs Python code
 
@@ -29,3 +29,7 @@ The exercises herein cover various concepts of the introductory phase of ALX SE 
 ## Play with Strings
 
 * Python script that concatenates strings
+
+### Copy - Cut - Paste
+
+* Python script that slices string
