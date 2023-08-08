@@ -19,3 +19,7 @@
 ### When I was having that alphabet soup, I never thought that it would pay off
 
 * The program prints the ASCII alphabet (except 'q' and 'e'), in lowercase, not followed by a new line
+
+### Hexadecimal printing
+
+* The program prints all numbers from 0 - 98 in decimal and hexadecimal
