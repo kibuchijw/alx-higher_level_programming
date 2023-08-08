@@ -2,8 +2,12 @@
 
 * Tasks meant to practice if/else conditionals, loops and functions in Python
 
-### Positive or Negative
+### Positive anything is better than negative nothing
 
 * A program that assigns a random number to the variable `number` each time it is executed.
 * The program prints whether random number is zero, negative, or positive
 
+### The Last Digit
+
+* The program Assigne a randon number to the variable `number` each time it executes
+* It then prints `number's` last digit whilst checking whether it is less than 6 and not 0
