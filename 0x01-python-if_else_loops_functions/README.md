@@ -23,3 +23,8 @@
 ### Hexadecimal printing
 
 * The program prints all numbers from 0 - 98 in decimal and hexadecimal
+
+### 00...99
+
+* The program prints numbers 0 - 99 separated by `,` followed by space.
+* Numbers should be printed in ascending order followed by a new line
