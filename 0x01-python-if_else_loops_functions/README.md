@@ -15,3 +15,7 @@
 ### I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
 
 * The program prints the ASCII alphabet, in lowercase, not followed by a new line
+
+### When I was having that alphabet soup, I never thought that it would pay off
+
+* The program prints the ASCII alphabet (except 'q' and 'e'), in lowercase, not followed by a new line
