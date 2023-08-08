@@ -33,3 +33,7 @@ The exercises herein cover various concepts of the introductory phase of ALX SE 
 ### Copy - Cut - Paste
 
 * Python script that slices string
+
+### Create a new sentence
+
+* Python script that slices string to make a new sentence
