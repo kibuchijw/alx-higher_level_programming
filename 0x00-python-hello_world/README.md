@@ -37,3 +37,7 @@ The exercises herein cover various concepts of the introductory phase of ALX SE 
 ### Create a new sentence
 
 * Python script that slices string to make a new sentence
+
+### Easter Egg
+
+* Python script that prints "The Zen of Python", by TimPeters, followed by a new line
