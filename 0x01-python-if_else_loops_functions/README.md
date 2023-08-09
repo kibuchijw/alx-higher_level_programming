@@ -45,3 +45,7 @@
 ### There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important
 
 * The function prints and returns the last digit of a number
+
+### a + b
+
+* The function add two integers and returns the result
