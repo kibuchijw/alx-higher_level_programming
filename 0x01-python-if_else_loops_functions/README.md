@@ -28,3 +28,8 @@
 
 * The program prints numbers 0 - 99 separated by `,` followed by space.
 * Numbers should be printed in ascending order followed by a new line
+
+### Inventing is a combination of brains and materials. The more brains you use,the less material you use
+
+* The program prints all possible different combinations of two digits
+* 01 and 10 are considered the same combination of digits 0 and 1
