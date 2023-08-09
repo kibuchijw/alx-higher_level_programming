@@ -49,3 +49,7 @@
 ### a + b
 
 * The function add two integers and returns the result
+
+### a ^ b
+
+* The function computes `a` to the power of `b` and returns the value
