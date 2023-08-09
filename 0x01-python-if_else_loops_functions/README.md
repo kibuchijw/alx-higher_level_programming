@@ -37,3 +37,7 @@
 ### islower
 
 * The function checks for lowercase characters
+
+### To uppercase
+
+* The function prints a string in uppercase followed by a new line
