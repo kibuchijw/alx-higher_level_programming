@@ -53,3 +53,10 @@
 ### a ^ b
 
 * The function computes `a` to the power of `b` and returns the value
+
+### Fizz Buzz
+
+* The function prints the numbers from 1 - 100 separated by a space
+* For multiples of three, it prints Fizz
+* For multiples of five, it prints Buzz
+* For multiples of both three and five, it prints FizzBuzz
