@@ -33,3 +33,7 @@
 
 * The program prints all possible different combinations of two digits
 * 01 and 10 are considered the same combination of digits 0 and 1
+
+### islower
+
+* The function checks for lowercase characters
