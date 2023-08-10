@@ -13,3 +13,7 @@
 ### How to make a script dynamic!
 
 * Program that prints the number of and the list of its arguments 
+
+### Infinit addition
+
+* Program that prints the result of the addition of all arguments
