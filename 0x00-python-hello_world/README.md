@@ -45,3 +45,7 @@ The exercises herein cover various concepts of the introductory phase of ALX SE 
 ### Hello, write
 
 * Python script that prints exactly "and that piece of art is useful - Dora Korpar, 2015-10-19", followed by a new line
+
+### Compile
+
+* Script that compiles a Python script file
