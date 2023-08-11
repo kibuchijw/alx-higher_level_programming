@@ -17,3 +17,12 @@
 ### Infinit addition
 
 * Program that prints the result of the addition of all arguments
+
+### Who are you?
+
+* Program that prints all the names defined by the compiled module `hidden_4.pyc`
+* Print on name per line, in alpha order
+
+### Everything can be imported
+
+* Program that imports the variable `a` from the file `variable_load_5.py` and prints its value
