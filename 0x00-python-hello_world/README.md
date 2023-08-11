@@ -49,3 +49,7 @@ The exercises herein cover various concepts of the introductory phase of ALX SE 
 ### Compile
 
 * Script that compiles a Python script file
+
+### ByteCode -> Python#1
+
+* Python function `def magic_calculation(a, b):` that does the same as bytecode provided
