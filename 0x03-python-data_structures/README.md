@@ -9,3 +9,7 @@
 ### Secure access to an element in a list
 
 * Function that retrieves an element from a list like in C
+
+### Print a list of integers... in reverse!
+
+* Function that prints all integers of a list, in reverse order
