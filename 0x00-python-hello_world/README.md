@@ -41,3 +41,7 @@ The exercises herein cover various concepts of the introductory phase of ALX SE 
 ### Easter Egg
 
 * Python script that prints "The Zen of Python", by TimPeters, followed by a new line
+
+### Hello, write
+
+* Python script that prints exactly "and that piece of art is useful - Dora Korpar, 2015-10-19", followed by a new line
