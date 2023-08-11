@@ -60,3 +60,7 @@
 * For multiples of three, it prints Fizz
 * For multiples of five, it prints Buzz
 * For multiples of both three and five, it prints FizzBuzz
+
+### Smile in the mirror
+
+* Program that prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase(`z` in lowercase and `Y` in uppercase), not followed by a new line
