@@ -21,3 +21,7 @@
 ### Replace in a copy
 
 * Function that replaces an element in a list at a specific position without modifying the original list (like in C)
+
+### Can you C me now?
+
+* Function that removes all characters `c` and `C` from a string
