@@ -37,3 +37,7 @@
 ### More returns!
 
 * Function that returns a tuple with the length of a string and its first character
+
+### Find the max
+
+* Function that finds the biggest integer of a list
