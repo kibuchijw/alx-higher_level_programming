@@ -33,3 +33,7 @@
 ### Tuples addition
 
 * Function that adds 2 tuples
+
+### More returns!
+
+* Function that returns a tuple with the length of a string and its first character
