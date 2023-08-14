@@ -25,3 +25,7 @@
 ### Can you C me now?
 
 * Function that removes all characters `c` and `C` from a string
+
+### Lists of lists = Matrix
+
+* Function that prints a matrix of integers
