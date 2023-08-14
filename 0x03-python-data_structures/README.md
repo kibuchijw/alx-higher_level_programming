@@ -29,3 +29,7 @@
 ### Lists of lists = Matrix
 
 * Function that prints a matrix of integers
+
+### Tuples addition
+
+* Function that adds 2 tuples
