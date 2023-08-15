@@ -41,3 +41,7 @@
 ### Find the max
 
 * Function that finds the biggest integer of a list
+
+### Only by 2
+
+* Function that finds all multiples of 2 in a list
