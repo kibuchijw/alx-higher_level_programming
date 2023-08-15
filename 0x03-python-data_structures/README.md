@@ -45,3 +45,7 @@
 ### Only by 2
 
 * Function that finds all multiples of 2 in a list
+
+### Delete at
+
+* Function that deletes the item at a specific position in a list
