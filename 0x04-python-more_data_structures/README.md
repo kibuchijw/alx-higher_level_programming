@@ -22,3 +22,7 @@
 ### Only differents
 
 * Function that returns a set of all elements present in only one set
+
+### Number of keys
+
+* Function that returns the number of keys in a dictionary
