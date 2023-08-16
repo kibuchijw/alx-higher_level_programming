@@ -18,3 +18,7 @@
 ### Present in both
 
 * Function that returns a set of common elements in two sets
+
+### Only differents
+
+* Function that returns a set of all elements present in only one set
