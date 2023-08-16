@@ -6,3 +6,15 @@
 ### Squared simple
 
 * Function that computes the square value of all integers of a matrix
+
+### Search and replace
+
+* Function that replaces all occurrences of an element by another in a new list
+
+### Unique addition
+
+* Function that adds all unique integers in a list (only once for each integer)
+
+### Present in both
+
+* Function that returns a set of common elements in two sets
