@@ -25,3 +25,10 @@
 * Function that returns a key with the biggest integer value
 ### Multiply by using map
 * Function that returns a list with all values multiplied by a number without using any loops
+### Roman to Integer
+#### Technical interview prep
+* Create a function `def roman_to_int(roman_string):` that converts a Roman numeral to an integer
+	* The function must return an integer
+	* if the `roman_string` is not a string or `None`, return 0
+### Weighted average!
+* Function that returns the weighted average of all integers tuple `(<score>, <weight>)
