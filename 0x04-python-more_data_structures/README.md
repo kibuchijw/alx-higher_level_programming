@@ -30,3 +30,7 @@
 ### Print sorted dictionary
 
 * Function that prints a dictionary by ordered keys
+
+### Update dictionary
+
+* Function that replaces or adds key/value in a dictionary
