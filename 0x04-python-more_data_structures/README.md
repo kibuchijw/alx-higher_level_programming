@@ -31,4 +31,6 @@
 	* The function must return an integer
 	* if the `roman_string` is not a string or `None`, return 0
 ### Weighted average!
-* Function that returns the weighted average of all integers tuple `(<score>, <weight>)
+* Function that returns the weighted average of all integers tuple `(<score>, <weight>)`
+### Squared by using map
+* Function that computes the square value of all integers of a matrix using `map`
