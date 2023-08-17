@@ -38,3 +38,6 @@
 ### Simple delete by key
 
 * Function that deletes a key in a dictionary
+
+### Multiply by 2
+* Function that returns a new dictionary
