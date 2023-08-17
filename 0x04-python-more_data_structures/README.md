@@ -34,3 +34,7 @@
 ### Update dictionary
 
 * Function that replaces or adds key/value in a dictionary
+
+### Simple delete by key
+
+* Function that deletes a key in a dictionary
