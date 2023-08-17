@@ -26,3 +26,7 @@
 ### Number of keys
 
 * Function that returns the number of keys in a dictionary
+
+### Print sorted dictionary
+
+* Function that prints a dictionary by ordered keys
