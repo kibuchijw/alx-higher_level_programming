@@ -3,3 +3,5 @@
 	* Handled try, except, else, and finally.
 ### Safe list printing
 * Function that prints `x` elements of a list
+### Print and count integers
+* Function that prints the first x elements of a list and only integers
