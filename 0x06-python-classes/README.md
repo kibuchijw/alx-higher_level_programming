@@ -8,3 +8,5 @@
 * Class Square that defines a square by:(based on 1-square.py)
 ### Area of a square
 * Class Square that defines a square by:(based on 2-square.py)
+### Access and update private attribute
+* Class Square that defines a square by:(based on 3-square.py)
