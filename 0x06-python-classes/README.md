@@ -5,4 +5,6 @@
 ### Square with size
 * class Square that defines a square by:(based on 0-square.py)
 ### Size Validation
-* Class Square that define square by:(based on 1-square.py)
+* Class Square that defines a square by:(based on 1-square.py)
+### Area of a square
+* Class Square that defines a square by:(based on 2-square.py)
