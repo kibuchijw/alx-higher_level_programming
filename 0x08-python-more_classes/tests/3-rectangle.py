@@ -71,7 +71,6 @@ class Rectangle:
         elif value < 0:
             raise ValueError("height must be >= 0")
         self.__height = value
-
     def area(self):
         """
         Calculate area of a rectangle
@@ -91,3 +90,18 @@ class Rectangle:
         if self.width == 0 or self.height == 0:
             return 0
         return 2 * (self.width + self.height)
+
+    def __str__(self):
+        """
+        String representation of rectangle as pattern of '#'
+
+        Returns:
+            str: String representation of a rectangle
+        """
+        if self.width == 0 or self.height == 0:
+            return ""
+
+        rectangle_string = ""
+        for _ in range(self.height):
+            rectangle_string += "#" * self.width + "\n"
+        return rectangle_string[:-1] # Remove trailing newline
