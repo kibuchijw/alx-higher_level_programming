@@ -106,3 +106,13 @@ class Rectangle:
         for _ in range(self.height):
             rectangle_string += "#" * self.width + "\n"
         return rectangle_string[:-1]  # Remove trailing newline
+
+    def __repr__(self):
+        """
+        Returns string representation of rectangle
+        that can be used to recreate new instance
+
+        Returns:
+            str: String representation of rectangle
+        """
+        return f"Rectangle({self.width}, {self.height})"
