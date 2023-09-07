@@ -5,6 +5,7 @@ Floats are typcasted to int before addition
 Raises: TypeError if either a or b are not float or int
 """
 
+
 def add_integer(a, b=98):
     """
     Integer addition function
