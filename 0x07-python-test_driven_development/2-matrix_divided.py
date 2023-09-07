@@ -1,20 +1,13 @@
 #!/usr/bin/python3
-""" matrix division """
+"""
+Divide all matrix elements by specified number
+Return nre matrix with elements divided
+Raise errors if conditions are not met
+"""
 
 def matrix_divided(matrix, div):
     """
-    Divide all matrix elements by specified number
-
-    Args:
-        matrix: Matrix to be divided
-        div: Divisor
-
-    Returns:
-        list of lists: New matrix with divided numbers
-
-    Raises:
-        TypeError: If several conditions are not met
-        ZeroDivisionError: If divisor is zero
+    Matrix division
     """
 
     # Check if matrix is a list of lists of floats and ints
@@ -26,7 +19,7 @@ def matrix_divided(matrix, div):
                 for row in matrix
             )
     ):
-        raise TypeError("matrix must be a matrix (list of lists) of integers/floats")
+        raise TypeError("matrix must be a matrix(list of lists) of integers/floats")
 
     # Check if all rows of matric have same size
     if len(set(len(row) for row in matrix)) != 1:
