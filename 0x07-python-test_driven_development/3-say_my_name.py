@@ -5,6 +5,7 @@ First name should always be passed
 Throw an error if name isn't string
 """
 
+
 def say_my_name(first_name, last_name=""):
     """
     Print first and last name
