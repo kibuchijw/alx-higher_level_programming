@@ -5,6 +5,8 @@
 class Rectangle:
     """ Defines rectangle with private attributes width and height """
 
+    number_of_instances = 0
+
     def __init__(self, width=0, height=0):
         """
         Initializes new Rectangle object
@@ -13,6 +15,7 @@ class Rectangle:
             width(int): The width, defaulting to 0
             height(int): The height, defaulting to 0
         """
+        Rectangle.number_of_instances += 1
         self.width = width
         self.height = height
 
@@ -124,4 +127,5 @@ class Rectangle:
         Returns:
             None
         """
+        Rectangle.number_of_instances -= 1
         print("Bye rectangle...")
