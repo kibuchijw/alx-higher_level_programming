@@ -1,12 +1,14 @@
-
+#!/usr/bin/python3
 """ Class Rectangle implementation, with private attributes"""
 
 
 class Rectangle:
     """ Defines rectangle with private attributes width and height """
+
+    number_of_instances = 0
     print_symbol = '#'
 
-    def __init__(self, height=0, width=0):
+    def __init__(self, width=0, height=0):
         """
         Initializes new Rectangle object
 
@@ -14,8 +16,9 @@ class Rectangle:
             width(int): The width, defaulting to 0
             height(int): The height, defaulting to 0
         """
-        self.height = height
+        Rectangle.number_of_instances += 1
         self.width = width
+        self.height = height
 
     @property
     def width(self):
@@ -74,24 +77,56 @@ class Rectangle:
         self.__height = value
 
     def area(self):
-        """ Return area of rectangle"""
-        return (self.width * self.height)
+        """
+        Calculate area of a rectangle
+
+        Returns:
+            int: Area of a rectangle
+        """
+        return self.width * self.height
 
     def perimeter(self):
+        """
+        Calculate perimeter of a rectangle
+
+        Returns:
+            int: Perimeter of a rectangle
+        """
         if self.width == 0 or self.height == 0:
-            return (0)
-        return ((self.width * 2) + (self.height * 2))
+            return 0
+        return 2 * (self.width + self.height)
 
     def __str__(self):
-        if self.width == 0 or self.height == 0:
-            return ('')
-        rectangle = ""
-        for i in range(self.height):
-            for y in range(self.width):
-                rectangle += str(self.print_symbol)
-            rectangle += '\n'
+        """
+        String representation of rectangle as pattern of '#'
 
-        return rectangle
+        Returns:
+            str: String representation of a rectangle
+        """
+        if self.width == 0 or self.height == 0:
+            return ""
+
+        rectangle_string = ""
+        for _ in range(self.height):
+            rectangle_string += str(self.print_symbol) * self.width + "\n"
+        return rectangle_string[:-1]  # Remove trailing newline
 
     def __repr__(self):
-        return "Rectangle({},{})".format(self.width, self.height)
+        """
+        Returns string representation of
+        rectangle that can be used to recreate new instance
+
+        Returns:
+            str: String representation of rectangle
+        """
+        return f"Rectangle({self.width}, {self.height})"
+
+    def __del__(self):
+        """
+        Deleted instance of rectangle and prints message
+
+        Returns:
+            None
+        """
+        Rectangle.number_of_instances -= 1
+        print("Bye rectangle...")
