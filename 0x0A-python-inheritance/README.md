@@ -12,3 +12,5 @@
 * Function that returns `True` if object is an instance of a class that inherited(directly of indirectly) from the specified clas; otherwise `False`.
 ### Geometry module
 * Empty class `BaseGeometry`
+### Improve Geometry
+* Class `BaseGeometry` (based on `5-base_geometry.py`).

@@ -7,4 +7,7 @@ Returns: nothing
 
 
 class BaseGeometry:
+    """
+    Empty class, does nothing
+    """
     pass
