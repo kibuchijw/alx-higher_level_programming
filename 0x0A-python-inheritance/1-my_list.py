@@ -5,6 +5,7 @@ print_sorted: Public instance  methods that sorts the list, ascending
 Return: Sorted list
 """
 
+
 class MyList(list):
     """
     Sort lisr in ascending order
@@ -13,4 +14,3 @@ class MyList(list):
         sorted_list = sorted(self)
 
         print(sorted_list)
-
