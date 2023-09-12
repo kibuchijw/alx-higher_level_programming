@@ -6,3 +6,5 @@
 * Class `MyList` that inherits from `list`
 ### Exact same object
 * Function that returns `True` if object is exactly an instance of the specified class; otherwise `False`
+### Same class or inherit from
+* Function that returns `True` if object is an instance of, or if object is an instance of a class inherited from, the specified class, otherwise `False`.
