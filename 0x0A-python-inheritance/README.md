@@ -16,3 +16,5 @@
 * Class `BaseGeometry` (based on `5-base_geometry.py`).
 ### Integer validator
 * Class `BaseGeometry` (based on `6-base_geometry.py`).
+### Rectangle
+* Class `Rectangle` that inherits from `BaseGeometry`(`7-base_geometry.py`).
