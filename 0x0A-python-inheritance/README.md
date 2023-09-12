@@ -10,3 +10,5 @@
 * Function that returns `True` if object is an instance of, or if object is an instance of a class inherited from, the specified class, otherwise `False`.
 ### Only sub class of
 * Function that returns `True` if object is an instance of a class that inherited(directly of indirectly) from the specified clas; otherwise `False`.
+### Geometry module
+* Empty class `BaseGeometry`
