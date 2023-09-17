@@ -8,3 +8,5 @@
 * Function that returns JSON representation of an object(string)
 ### From JSON string to Object
 * Function that returns an object(Python data structure) represented by a JSON string
+### Save Object to a file
+* Function that writes an Object to a text file, using a JSON representation
