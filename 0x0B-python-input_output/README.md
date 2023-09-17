@@ -12,3 +12,5 @@
 * Function that writes an Object to a text file, using a JSON representation
 ### Create Object from a JSON file
 * Function that creates an Object from a JSON file
+### Load, add, save
+* Script that adds all arguments to a Python list, and then save them to a file
