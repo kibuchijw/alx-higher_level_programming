@@ -26,3 +26,8 @@
 * A class `Student` that defines a student by:(based on `9-student.py`)
 	* id `attrs` is a list of strings, only attribute names contained in the list must be retrieved
 	* Otherwise, all attributes must be retrieved
+### Student to disk and reload
+* A class `Student` that defines a student by:(based on `10-student.py`)
+	* Public method `def reload_from_json(self, json):` that replaces all attributes of the `Student` instance
+### Pascal's Triangle
+* Function `def pascal_triangle(n):` that returns a list of lists of integers representing the Pascal's triangle of `n`
