@@ -10,3 +10,5 @@
 * Function that returns an object(Python data structure) represented by a JSON string
 ### Save Object to a file
 * Function that writes an Object to a text file, using a JSON representation
+### Create Object from a JSON file
+* Function that creates an Object from a JSON file
