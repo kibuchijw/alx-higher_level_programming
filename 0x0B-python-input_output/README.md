@@ -22,3 +22,7 @@
 		* `first_name`
 		* `last_name`
 		* `age`
+### Student to JSON with filter
+* A class `Student` that defines a student by:(based on `9-student.py`)
+	* id `attrs` is a list of strings, only attribute names contained in the list must be retrieved
+	* Otherwise, all attributes must be retrieved
