@@ -31,3 +31,5 @@
 	* Public method `def reload_from_json(self, json):` that replaces all attributes of the `Student` instance
 ### Pascal's Triangle
 * Function `def pascal_triangle(n):` that returns a list of lists of integers representing the Pascal's triangle of `n`
+### Search and update
+* Function that inserts a line of text to a file, after each line containing a specific string
