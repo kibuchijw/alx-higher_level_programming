@@ -9,6 +9,7 @@
 | 4. First table | [4-first_table.sql](./4-first_table.sql) |
 | 5. Full description | [5-full_table.sql](./5-full_table.sql) |
 | 6. List all in table | [6-list_values.sql](./6-list_values.sql) |
+| 7. First add | [7-insert_value.sql](./7-insert_value.sql) |
 
 Tasks
 ## 0. List databases
@@ -40,3 +41,11 @@ Tasks
 * A script that lists all rows of the table `first_table` from the database `hbtn_0c_0`
 	* All fields should be printed
 	* Database name will be passed as argument of the `mysql` command
+* USAGE: `cat 6-list_values.sql | mysql -hlocalhost -uroot -p hbtn_0c_0`
+## 7. First add
+* A script that inserts a new row in the table `first_table`(database `hbtn_0c_0` in a MySQL server
+		* New row:
+			* `id` = `89`
+			* `name` = `Best School`
+		* The database name will be passed as argument of the `mysql` command
+* USAGE: `cat 7-insert_value.sql | mysql -hlocalhost -uroot -p hbtn_0c_0`
