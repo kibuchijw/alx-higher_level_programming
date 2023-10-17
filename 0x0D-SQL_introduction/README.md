@@ -10,6 +10,7 @@
 | 5. Full description | [5-full_table.sql](./5-full_table.sql) |
 | 6. List all in table | [6-list_values.sql](./6-list_values.sql) |
 | 7. First add | [7-insert_value.sql](./7-insert_value.sql) |
+| 8. Count 89 | [8-count_89.sql](./8-count_89.sql) |
 
 Tasks
 ## 0. List databases
@@ -49,3 +50,7 @@ Tasks
 			* `name` = `Best School`
 		* The database name will be passed as argument of the `mysql` command
 * USAGE: `cat 7-insert_value.sql | mysql -hlocalhost -uroot -p hbtn_0c_0`
+## 8. Count 89
+* A script that displays the number of records with `id = 89` in `first_table` database `hbtn_0c_0`
+	* The database name will be passed as argument of the `mysql` command
+* USAGE: cat 8-count_89.sql | mysql -hlocalhost -uroot -p hbtn_0c_0 | tail -1
