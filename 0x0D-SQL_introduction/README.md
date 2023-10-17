@@ -6,6 +6,7 @@
 | 1. Create a database | [1-create_database_if_missing.sql](./1-create_database_if_missing.sql) |
 | 2. Delete a database | [2-remove_database.sql](./2-remove_database.sql) |
 | 3. List tables | [3-list_tables.sql](./3-list_tables.sql) |
+| 4. First table | [4-first_table.sql](./4-first_table.sql) |
 
 Tasks
 ## 0. List databases
@@ -21,3 +22,11 @@ Tasks
 ## 3. List tables
 * A script that lists all tables of a database in your MySQL server
 	* Database name will be passed as argument of `mysql` command
+## 4. First table
+* A script that creates a table called `first_table` in the current database of a MySQL server
+	* `first_table` description:
+		* `id` INT
+		* `name` VARCHAR(256)
+	* Database name will be passed as argument of the `mysql` command
+	* If `first_table` already exists, script should not fail
+	* `SELECT` and `SHOW` statements are not allowed
