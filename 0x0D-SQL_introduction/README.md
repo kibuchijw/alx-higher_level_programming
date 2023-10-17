@@ -7,6 +7,7 @@
 | 2. Delete a database | [2-remove_database.sql](./2-remove_database.sql) |
 | 3. List tables | [3-list_tables.sql](./3-list_tables.sql) |
 | 4. First table | [4-first_table.sql](./4-first_table.sql) |
+| 5. Full description | [5-full_table.sql](./5-full_table.sql) |
 
 Tasks
 ## 0. List databases
@@ -30,3 +31,7 @@ Tasks
 	* Database name will be passed as argument of the `mysql` command
 	* If `first_table` already exists, script should not fail
 	* `SELECT` and `SHOW` statements are not allowed
+## 5. Full description
+* A script that prints the full description of a the table `first_table` from the database `hbtn_0c_0` in a MySQL server
+	* Database name will be passed as argument of the `mysql` command
+	* `DESCRIBE` or `EXPLAIN` statements are not allowed
