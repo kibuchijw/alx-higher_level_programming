@@ -5,6 +5,7 @@
 | 0. List databases | [0-list_databases.sql](./0-list_databases.sql) |
 | 1. Create a database | [1-create_database_if_missing.sql](./1-create_database_if_missing.sql) |
 | 2. Delete a database | [2-remove_database.sql](./2-remove_database.sql) |
+| 3. List tables | [3-list_tables.sql](./3-list_tables.sql) |
 
 Tasks
 ## 0. List databases
@@ -17,3 +18,6 @@ Tasks
 * A script that deletes the database `hbtn_0c_0` in your MySQL server
 	* If the database `hbtn_0c_0` doesn't exist, the script shouldn't fail
 	* `SELECT` or `SHOW` statements are not allowed
+## 3. List tables
+* A script that lists all tables of a database in your MySQL server
+	* Database name will be passed as argument of `mysql` command
