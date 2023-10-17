@@ -11,6 +11,7 @@
 | 6. List all in table | [6-list_values.sql](./6-list_values.sql) |
 | 7. First add | [7-insert_value.sql](./7-insert_value.sql) |
 | 8. Count 89 | [8-count_89.sql](./8-count_89.sql) |
+| 9. Full creation | [9-full_creation.sql](./9-full_creation.sql) |
 
 Tasks
 ## 0. List databases
@@ -54,3 +55,13 @@ Tasks
 * A script that displays the number of records with `id = 89` in `first_table` database `hbtn_0c_0`
 	* The database name will be passed as argument of the `mysql` command
 * USAGE: cat 8-count_89.sql | mysql -hlocalhost -uroot -p hbtn_0c_0 | tail -1
+## 9. Full creation
+* A script that creates a table `second_table` in the `hbtn_0c_0` in a MySQL server and adds multiple rows
+	* `second_table` description:
+		* `id` INT
+		* `name` VARCHAR(256)
+		* `score` INT
+	* Database name will be passed as argument to `mysql` command
+	* If `second_table` already exists, script should not fail
+	* `SELECT` and `SHOW` statements are not allowed
+* USAGE: cat 9-full_creation.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
