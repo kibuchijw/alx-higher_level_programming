@@ -17,6 +17,7 @@
 | 12. Cheating is bad | [12-no_cheating.sql](./12-no_cheating.sql) |
 | 13. Score too low | [13-change_class.sql](./13-change_class.sql) |
 | 14. Average | [14-average.sql](./14-average.sql) |
+| 15. Number by score | [15-groups.sql](./15-groups.sql) |
 
 Tasks
 ## 0. List databases
@@ -95,3 +96,11 @@ Tasks
 	* Result column name should be `average`
 	* Database name will be passed as argument of `mysql` command
 * USAGE: `cat 14-average.sql | mysql -hlocalhost -uroot -p hbtn_0c_0`
+## 15. Number by score
+* A script that lists number of records with same score in `second_table` of `hbtn_0c_0`
+	* Result should display:
+		* The `score`
+		* Number of records for this `score` with the label number
+	* List should be sorted by number of records(descending)
+	* Database name will be passed as argument of `mysql` command
+* USAGE: `cat 15-groups.sql | mysql -hlocalhost -uroot -p hbtn_0c_0`
