@@ -13,6 +13,7 @@
 | 8. Count 89 | [8-count_89.sql](./8-count_89.sql) |
 | 9. Full creation | [9-full_creation.sql](./9-full_creation.sql) |
 | 10. List by best | [10-top_score.sql](./10-top_score.sql) |
+| 11. Select the best | [11-best_score.sql](./11-best_score.sql) |
 
 Tasks
 ## 0. List databases
@@ -72,3 +73,9 @@ Tasks
 	* Records should be ordered by score(top first)
 	* Database name will be passed as argument of `mysql` command
 * USAGE: `cat 10-top_score.sql | mysql -hlocalhost -uroot -p hbtn_0c_0`
+## 11. Select the best
+* A script that lists all records with a `score >= 10` in `seond_table` of `hbtn_0c_0`
+	* Results should display both score and the name(in this order)
+	* Records should be ordered by score(top first)
+	* Database name will be passed as argument of `mysql` command
+* USAGE: `cat 11-best_score.sql | mysql -hlocalhost -uroot -p hbtn_0c_0`
