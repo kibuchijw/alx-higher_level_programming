@@ -15,6 +15,7 @@
 | 10. List by best | [10-top_score.sql](./10-top_score.sql) |
 | 11. Select the best | [11-best_score.sql](./11-best_score.sql) |
 | 12. Cheating is bad | [12-no_cheating.sql](./12-no_cheating.sql) |
+| 13. Score too low | [13-change_class.sql](./13-change_class.sql) |
 
 Tasks
 ## 0. List databases
@@ -85,3 +86,6 @@ Tasks
 	* Bob's id value is not allowed, only the `name` field
 	* Database name will be passed as argument of `mysql` command
 * USAGE: `cat 12-no_cheating.sql | mysql -hlocalhost -uroot -p hbtn_0c_0`
+## 13. Score too low
+* A script that removes all records with `score <= 5` in `second_table` of `hbtn_0c_0`
+	* Database name will be passed as argument of `mysql` command
