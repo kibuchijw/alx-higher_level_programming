@@ -18,6 +18,7 @@
 | 13. Score too low | [13-change_class.sql](./13-change_class.sql) |
 | 14. Average | [14-average.sql](./14-average.sql) |
 | 15. Number by score | [15-groups.sql](./15-groups.sql) |
+| 16. Say my name | [16-no_link.sql](./16-no_link.sql) |
 
 Tasks
 ## 0. List databases
@@ -104,3 +105,10 @@ Tasks
 	* List should be sorted by number of records(descending)
 	* Database name will be passed as argument of `mysql` command
 * USAGE: `cat 15-groups.sql | mysql -hlocalhost -uroot -p hbtn_0c_0`
+## 16. Say my name
+* A script that lists all records of `second_table` in `hbtn_0c_0`
+	* Rows without a `name` value shouldn't be listed
+	* Results should display score and the name(in this order)
+	* Records should be listed by descending order
+	* Database name will be passed as argument of `mysql` command
+* USAGE: `cat 16-no_link.sql | mysql -hlocalhost -uroot -p hbtn_0c_0`
