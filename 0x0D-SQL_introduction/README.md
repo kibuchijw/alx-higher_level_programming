@@ -16,6 +16,7 @@
 | 11. Select the best | [11-best_score.sql](./11-best_score.sql) |
 | 12. Cheating is bad | [12-no_cheating.sql](./12-no_cheating.sql) |
 | 13. Score too low | [13-change_class.sql](./13-change_class.sql) |
+| 14. Average | [14-average.sql](./14-average.sql) |
 
 Tasks
 ## 0. List databases
@@ -89,3 +90,8 @@ Tasks
 ## 13. Score too low
 * A script that removes all records with `score <= 5` in `second_table` of `hbtn_0c_0`
 	* Database name will be passed as argument of `mysql` command
+## 14. Average
+* A script that computes the score average of all records in `second_table` of `hbtn_0c_0`
+	* Result column name should be `average`
+	* Database name will be passed as argument of `mysql` command
+* USAGE: `cat 14-average.sql | mysql -hlocalhost -uroot -p hbtn_0c_0`
