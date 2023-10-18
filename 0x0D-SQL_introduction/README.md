@@ -12,6 +12,7 @@
 | 7. First add | [7-insert_value.sql](./7-insert_value.sql) |
 | 8. Count 89 | [8-count_89.sql](./8-count_89.sql) |
 | 9. Full creation | [9-full_creation.sql](./9-full_creation.sql) |
+| 10. List by best | [10-top_score.sql](./10-top_score.sql) |
 
 Tasks
 ## 0. List databases
@@ -65,3 +66,9 @@ Tasks
 	* If `second_table` already exists, script should not fail
 	* `SELECT` and `SHOW` statements are not allowed
 * USAGE: cat 9-full_creation.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
+## 10. List by best
+* A script that lists all records of `second_table` in `hbtn_0c_0`
+	* Results should display both score and the name(in this order)
+	* Records should be ordered by score(top first)
+	* Database name will be passed as argument of `mysql` command
+* USAGE: `cat 10-top_score.sql | mysql -hlocalhost -uroot -p hbtn_0c_0`
