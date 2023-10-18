@@ -14,6 +14,7 @@
 | 9. Full creation | [9-full_creation.sql](./9-full_creation.sql) |
 | 10. List by best | [10-top_score.sql](./10-top_score.sql) |
 | 11. Select the best | [11-best_score.sql](./11-best_score.sql) |
+| 12. Cheating is bad | [12-no_cheating.sql](./12-no_cheating.sql) |
 
 Tasks
 ## 0. List databases
@@ -79,3 +80,8 @@ Tasks
 	* Records should be ordered by score(top first)
 	* Database name will be passed as argument of `mysql` command
 * USAGE: `cat 11-best_score.sql | mysql -hlocalhost -uroot -p hbtn_0c_0`
+## 12. Cheating is bad
+* A script that updates the score of Bob to `10` in `second_table`
+	* Bob's id value is not allowed, only the `name` field
+	* Database name will be passed as argument of `mysql` command
+* USAGE: `cat 12-no_cheating.sql | mysql -hlocalhost -uroot -p hbtn_0c_0`
