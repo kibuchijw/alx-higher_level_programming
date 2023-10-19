@@ -8,6 +8,7 @@
 | 3. Always a name | [3-force_name.sql](./3-force_name.sql) |
 | 4. ID can't be null | [4-never_empty.sql](./4-never_empty.sql) |
 | 5. Unique ID | [5-unique_id.sql](./5-unique_id.sql) |
+| 6. States table | [6-states.sql](./6-states.sql) |
 
 # Tasks
 ## 0. My privileges!
@@ -37,10 +38,16 @@
 	* Database name passed as an argument of `mysql` command
 	* If the table `id_not_null` already exists, script should not fail
 ## 5. Unique ID
-* Script that create table `unique_id` on MySQL server
+* Script that creates table `unique_id` on MySQL server
 	* `unique_id` description:
 		* `id` INT with default value `1` and must be unique
 		* `name` VARCHAR(256)
 	* Database name passed as an argument of `mysql` command
 	* If the table `unique_id` already exists, script should not fail
-	
+## 6. States table
+* Script that creates database `hbtn_0d_usa` and the table `states`(in the database hbtn_0d_usa`) on MySQL server
+	* `states` description:
+		* `id` INT unique, auto generated, can't be null and is a primary key
+		* `name` VARCHAR(256) can't be null
+	* If the database `hbtn_0d_usa` already exists, script should not fail
+	* If the table `states` already exists, script should not fail
