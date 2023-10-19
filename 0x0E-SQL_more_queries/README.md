@@ -11,6 +11,7 @@
 | 6. States table | [6-states.sql](./6-states.sql) |
 | 7. Cities table | [7-cities.sql](./7-cities.sql) |
 | 8. Cities of California | [8-cities_of_california_subquery.sql](./8-cities_of_california_subquery.sql) |
+| 9. Cities by States | [9-cities_by_state_join.sql](./9-cities_by_state_join.sql) |
 
 # Tasks
 ## 0. My privileges!
@@ -67,3 +68,10 @@
 	* Results must be sorted in ascending order by `cities.id`
 	* `JOIN` keyword is not allowed
 	* Database name will be passed as argument of the `mysql` command
+## 9. Cities by States
+* Script that lists all cities contained in the database `hbtn_0d_usa`
+	* Each record should display: `cities.id`-`cities.name`-`states.name`
+	* Results must be sorted in ascending order by `cities.id`
+	* Only one `SELECT` statement is allowed
+	* Database name will be passed as argument of the `mysql` command
+	
