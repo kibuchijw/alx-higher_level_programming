@@ -7,6 +7,7 @@
 | 2. Read user | [2-create_read_user.sql](./2-create_read_user.sql) |
 | 3. Always a name | [3-force_name.sql](./3-force_name.sql) |
 | 4. ID can't be null | [4-never_empty.sql](./4-never_empty.sql) |
+| 5. Unique ID | [5-unique_id.sql](./5-unique_id.sql) |
 
 # Tasks
 ## 0. My privileges!
@@ -35,3 +36,11 @@
 		* `name` VARCHAR(256)
 	* Database name passed as an argument of `mysql` command
 	* If the table `id_not_null` already exists, script should not fail
+## 5. Unique ID
+* Script that create table `unique_id` on MySQL server
+	* `unique_id` description:
+		* `id` INT with default value `1` and must be unique
+		* `name` VARCHAR(256)
+	* Database name passed as an argument of `mysql` command
+	* If the table `unique_id` already exists, script should not fail
+	
