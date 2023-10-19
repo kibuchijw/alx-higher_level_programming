@@ -6,6 +6,7 @@
 | 1. Root user | [1-create_user.sql](./1-create_user.sql) |
 | 2. Read user | [2-create_read_user.sql](./2-create_read_user.sql) |
 | 3. Always a name | [3-force_name.sql](./3-force_name.sql) |
+| 4. ID can't be null | [4-never_empty.sql](./4-never_empty.sql) |
 
 # Tasks
 ## 0. My privileges!
@@ -27,3 +28,10 @@
 		* `name` VARCHAR(256) can't be null
 	* Database name passed as an argument of `mysql` command
 	* If `force_name` already exists, script should not fail
+## 4. ID can't be null
+* Script that creates table `id_not_null` on MySQL server
+	* `id_not_null` description:
+		* `id` INT with the default value `1`
+		* `name` VARCHAR(256)
+	* Database name passed as an argument of `mysql` command
+	* If the table `id_not_null` already exists, script should not fail
