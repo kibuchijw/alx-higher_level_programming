@@ -5,6 +5,7 @@
 | 0. My privileges! | [0-privileges.sql](./0-privileges.sql) |
 | 1. Root user | [1-create_user.sql](./1-create_user.sql) |
 | 2. Read user | [2-create_read_user.sql](./2-create_read_user.sql) |
+| 3. Always a name | [3-force_name.sql](./3-force_name.sql) |
 
 # Tasks
 ## 0. My privileges!
@@ -19,4 +20,10 @@
 	* `user_0d_2` should have only SELECT privilege in the database `hbtn_0d_2`
 	* `user_0d_2` password should be set to `user_0d_2_pwd`
 	* if database `hbtn_0d_2` already exists, script should not fail
-
+## 3. Always a name
+* Script that creates the table `force_name` on MySQL server
+	* `force_name` description:
+		* `id` INT
+		* `name` VARCHAR(256) can't be null
+	* Database name passed as an argument of `mysql` command
+	* If `force_name` already exists, script should not fail
