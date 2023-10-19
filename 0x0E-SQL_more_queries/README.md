@@ -12,6 +12,7 @@
 | 7. Cities table | [7-cities.sql](./7-cities.sql) |
 | 8. Cities of California | [8-cities_of_california_subquery.sql](./8-cities_of_california_subquery.sql) |
 | 9. Cities by States | [9-cities_by_state_join.sql](./9-cities_by_state_join.sql) |
+| 10. Genre ID by show | [10-genre_id_by_show.sql](./10-genre_id_by_show.sql) |
 
 # Tasks
 ## 0. My privileges!
@@ -74,4 +75,10 @@
 	* Results must be sorted in ascending order by `cities.id`
 	* Only one `SELECT` statement is allowed
 	* Database name will be passed as argument of the `mysql` command
-	
+## 10. Genre ID by show
+* Import database dump from `hbtn_0d_tvshows` to MySQL server
+* Write a script that lists all shows contained in `hbtn_0d_tvshows` that have at least one genre linked
+	* Each record should display:`tv_shows.title`-`tv_show_genres.genre_id`
+	* Results must be sorted in ascending order by `tv_shows.title` and `tv_show_genres.genre_id`
+	* Only one SELECT statement is allowed
+	* Database name will be passed as argument of the `mysql` command
