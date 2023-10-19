@@ -9,6 +9,7 @@
 | 4. ID can't be null | [4-never_empty.sql](./4-never_empty.sql) |
 | 5. Unique ID | [5-unique_id.sql](./5-unique_id.sql) |
 | 6. States table | [6-states.sql](./6-states.sql) |
+| 7. Cities table | [7-cities.sql](./7-cities.sql) |
 
 # Tasks
 ## 0. My privileges!
@@ -51,3 +52,11 @@
 		* `name` VARCHAR(256) can't be null
 	* If the database `hbtn_0d_usa` already exists, script should not fail
 	* If the table `states` already exists, script should not fail
+## 7. Cities table
+* Script that creates databade `hbtn_0d_usa` and table `cities`(int the database `hbtn_0d_usa`) on MySQL server
+	* `cities` description:
+		* `id` INT unique, auto generated, can't be null and is a primary key
+		* `state_id` INT, can't be null and must be a `FOREIGN KEY` that references to `id` of the `states` table
+		* `name` VARCHAR(256) can't be null
+	* If the database `hbtn_0d_usa` already, exists, script should not fail
+	* If the table `cities` already exists, script should not fail
