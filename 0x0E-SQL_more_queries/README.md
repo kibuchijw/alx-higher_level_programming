@@ -10,6 +10,7 @@
 | 5. Unique ID | [5-unique_id.sql](./5-unique_id.sql) |
 | 6. States table | [6-states.sql](./6-states.sql) |
 | 7. Cities table | [7-cities.sql](./7-cities.sql) |
+| 8. Cities of California | [8-cities_of_california_subquery.sql](./8-cities_of_california_subquery.sql) |
 
 # Tasks
 ## 0. My privileges!
@@ -60,3 +61,9 @@
 		* `name` VARCHAR(256) can't be null
 	* If the database `hbtn_0d_usa` already, exists, script should not fail
 	* If the table `cities` already exists, script should not fail
+## 8. Cities of California
+* Script that lists all cities of California that can be foung in the database `hbtn_0d_usa`
+	* `states` table contains only one record where `name`=`California`(but the `id` can be different)
+	* Results must be sorted in ascending order by `cities.id`
+	* `JOIN` keyword is not allowed
+	* Database name will be passed as argument of the `mysql` command
