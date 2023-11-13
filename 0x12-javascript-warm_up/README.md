@@ -35,6 +35,7 @@
 | 9. Add | [9-add.js](./9-add.js) |
 | 10. Factorial | [10-factorial.js](./10-factorial.js) |
 | 11. Second biggest! | [11-second_biggest.js](./11-second_biggest.js) |
+| 12. Object | [12-object.js](./12-object.js) |
 
 ## Tasks
 ### 0. First constant, first print
@@ -119,4 +120,7 @@
 	* If no argument passed, print `0`
 	* If the number of arguments is 1, print `0`
 	* You must use `console.log(...)` to print all output
+	* You are not allowed to use `var`
+### 12. Object
+* Update given script to replace the value `12` with `89`:
 	* You are not allowed to use `var`
