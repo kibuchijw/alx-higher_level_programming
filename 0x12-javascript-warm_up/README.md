@@ -36,6 +36,7 @@
 | 10. Factorial | [10-factorial.js](./10-factorial.js) |
 | 11. Second biggest! | [11-second_biggest.js](./11-second_biggest.js) |
 | 12. Object | [12-object.js](./12-object.js) |
+| 13. Add file | [13-add.js](./13-add.js) |
 
 ## Tasks
 ### 0. First constant, first print
@@ -123,4 +124,9 @@
 	* You are not allowed to use `var`
 ### 12. Object
 * Update given script to replace the value `12` with `89`:
+	* You are not allowed to use `var`
+### 13. Add file
+* A function that returns the addition of 2 integers.
+	* The function must be visible from outside
+	* The name of the function must be `add`
 	* You are not allowed to use `var`
