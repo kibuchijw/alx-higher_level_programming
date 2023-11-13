@@ -29,6 +29,7 @@
 | 3. Value of my argument | [3-value_argument.js](./3-value_argument.js) |
 | 4. Create a sentence | [4-concat.js](./4-concat.js) |
 | 5. An Integer | [5-to_integer.js](./5-to_integer.js) |
+| 6. Loop to languages | [6-multi_languages_loop.js](./6-multi_languages_loop.js) |
 
 ## Tasks
 ### 0. First constant, first print
@@ -66,3 +67,13 @@
 	* You must use `console.log(...)` to print all output
 	* You are not allowed to use `var`
 	* You are not allowed to use `try/catch`
+### 6. Loop to languages
+* A script that prints 3 lines:(like [1-multi_languages.js](./1-multi_languages.js)) but by using an array of strings and a loop 
+	* The first line:"C is fun"
+	* The second line:"Python is cool"
+	* The third line:"JavaScript is amazing"
+	* You must use `console.log(...)` to print all output
+	* You are not allowed to use `var`
+	* You are not allowed to use any `if/else` statement
+	* You can use only one `console.log`
+	* You must use a loop (`while`,`for`, etc.)
