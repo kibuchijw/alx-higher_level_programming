@@ -26,6 +26,7 @@
 | 0. First constant, first print | [0-javascript_is_amazing.js](./0-javascript_is_amazing.js) |
 | 1. 3 languages | [1-multi_languages.js](./1-multi_languages.js) |
 | 2. Arguments | [2-arguments.js](./2-arguments.js) |
+| 3. Value of my argument | [3-value_argument.js](./3-value_argument.js) |
 
 ## Tasks
 ### 0. First constant, first print
@@ -47,3 +48,9 @@
 	* Otherwise, print "Arguments found"
 	* You must use `console.log(...)` to print all output
 	* You are not allowed to use `var`
+### 3. Value of my argument
+* A script that prints the first argument passed to it:
+	* If no arguments are passed to the script, print"No argument"
+	* You must use `console.log(...)` to print all output
+	* You are not allowed to use `var`
+	* You are not allowed to use `length`
