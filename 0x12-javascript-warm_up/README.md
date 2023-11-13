@@ -30,6 +30,7 @@
 | 4. Create a sentence | [4-concat.js](./4-concat.js) |
 | 5. An Integer | [5-to_integer.js](./5-to_integer.js) |
 | 6. Loop to languages | [6-multi_languages_loop.js](./6-multi_languages_loop.js) |
+| 7. I love C | [7-multi_c.js](./7-multi_c.js) |
 
 ## Tasks
 ### 0. First constant, first print
@@ -77,3 +78,11 @@
 	* You are not allowed to use any `if/else` statement
 	* You can use only one `console.log`
 	* You must use a loop (`while`,`for`, etc.)
+### 7. I love C
+* A script that prints `x` times "C is fun"
+	* Where `x` is the first argument of the script
+	* If the first argument can't be converted to an integer, print"Missing number of occurrences”
+	* You must use `console.log(...)` to print all output
+	* You are not allowed to use `var`
+	* You can use only two `console.log`
+	* You must use a loop(`while`,`for`, etc.)
