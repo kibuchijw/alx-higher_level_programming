@@ -25,6 +25,7 @@
 | ---- | ---- |
 | 0. First constant, first print | [0-javascript_is_amazing.js](./0-javascript_is_amazing.js) |
 | 1. 3 languages | [1-multi_languages.js](./1-multi_languages.js) |
+| 2. Arguments | [2-arguments.js](./2-arguments.js) |
 
 ## Tasks
 ### 0. First constant, first print
@@ -37,5 +38,12 @@
 	* The first line: "C is fun"
 	* The second line: "Python is cool"
 	* The third line: "JavaScript is amazing"
+	* You must use `console.log(...)` to print all output
+	* You are not allowed to use `var`
+### 2. Arguments
+* A script that prints a message depending on the number of arguments passed:
+	* If no arguments are passed to the script, print "No argument"
+	* If only one argument is passed to the script, print "Argument found"
+	* Otherwise, print "Arguments found"
 	* You must use `console.log(...)` to print all output
 	* You are not allowed to use `var`
