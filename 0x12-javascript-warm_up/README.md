@@ -27,6 +27,7 @@
 | 1. 3 languages | [1-multi_languages.js](./1-multi_languages.js) |
 | 2. Arguments | [2-arguments.js](./2-arguments.js) |
 | 3. Value of my argument | [3-value_argument.js](./3-value_argument.js) |
+| 4. Create a sentence | [4-concat.js](./4-concat.js) |
 
 ## Tasks
 ### 0. First constant, first print
@@ -54,3 +55,7 @@
 	* You must use `console.log(...)` to print all output
 	* You are not allowed to use `var`
 	* You are not allowed to use `length`
+### 4. Create a sentence
+* A script that prints two arguments passed to it, in the following format:"is"
+	* You must use `console.log(...)` to print all output
+	* You are not allowed to use `var`
