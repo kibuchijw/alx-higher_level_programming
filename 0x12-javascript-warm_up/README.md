@@ -34,6 +34,7 @@
 | 8. Square | [8-square.js](./8-square.js) |
 | 9. Add | [9-add.js](./9-add.js) |
 | 10. Factorial | [10-factorial.js](./10-factorial.js) |
+| 11. Second biggest! | [11-second_biggest.js](./11-second_biggest.js) |
 
 ## Tasks
 ### 0. First constant, first print
@@ -110,5 +111,12 @@
 	* Factorial of `NaN` is `1`
 	* You must do it recursively
 	* You must use a function
+	* You must use `console.log(...)` to print all output
+	* You are not allowed to use `var`
+### 11. Second biggest!
+* A script that searches the second biggest integer in the list of arguments.
+	* You can assume all arguments can be converted to integer
+	* If no argument passed, print `0`
+	* If the number of arguments is 1, print `0`
 	* You must use `console.log(...)` to print all output
 	* You are not allowed to use `var`
