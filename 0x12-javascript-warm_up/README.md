@@ -28,6 +28,7 @@
 | 2. Arguments | [2-arguments.js](./2-arguments.js) |
 | 3. Value of my argument | [3-value_argument.js](./3-value_argument.js) |
 | 4. Create a sentence | [4-concat.js](./4-concat.js) |
+| 5. An Integer | [5-to_integer.js](./5-to_integer.js) |
 
 ## Tasks
 ### 0. First constant, first print
@@ -59,3 +60,9 @@
 * A script that prints two arguments passed to it, in the following format:"is"
 	* You must use `console.log(...)` to print all output
 	* You are not allowed to use `var`
+### 5. An Integer
+* A script that prints `My number: <first argument converted in integer>` if the first argument can be converted to an integer:
+	* If the argument can't be converted to an integer, print"Not a number"
+	* You must use `console.log(...)` to print all output
+	* You are not allowed to use `var`
+	* You are not allowed to use `try/catch`
