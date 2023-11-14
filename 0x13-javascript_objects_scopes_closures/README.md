@@ -24,6 +24,7 @@
 | 6. Square #1 | [6-square.js](./6-square.js) |
 | 7. Occurrences | [7-occurrences.js](./7-occurrences.js) |
 | 8. Esrever | [8-esrever.js](./8-esrever.js) |
+| 9. Log me | [9-logme.js](./9-logme.js) |
 
 ## Tasks
 ### 0. Rectangle #0
@@ -77,3 +78,7 @@
 * A function that returns the reversed version of a list:
 	* Prototype: `exports.esrever = function (list)`
 	* You are not allowed to use the built-in method `reverse`
+### 9. Log me
+* A function that prints the number of arguments already printed and the new argument value.
+	* Prototype: `exports.logMe = function (item)`
+	* Output format: `<number arguments already printed>: <current argument value>`
