@@ -19,6 +19,7 @@
 | 1. Rectangle #1 | [1-rectangle.js](./1-rectangle.js) |
 | 2. Rectangle #2 | [2-rectangle.js](./2-rectangle.js) |
 | 3. Rectangle #3 | [3-rectangle.js](./3-rectangle.js) |
+| 4. Rectangle #4 | [4-rectangle.js](./4-rectangle.js) |
 
 ## Tasks
 ### 0. Rectangle #0
@@ -45,3 +46,13 @@
 	* Initialize the instance attribute `height` with the value of `h`
 	* If `w` of `h` is equal to 0 or not a positive integer, create an empty object
 	* Create an instance method called `print()` that prints the rectangle using the character `X`
+### 4. Rectangle #4
+* A class `Rectangle` that defines a rectangle:
+	* You must use the `class` notation for defining class
+	* The constructor must take 2 arguments: `w` and `h`
+	* Initialize the instance attribute `width` with the value of `w`
+	* Initialize the instance attribute `height` with the value of `h`
+	* If `w` of `h` is equal to 0 or not a positive integer, create an empty object
+	* Create an instance method called `print()` that prints the rectangle using the character `X`
+	* Create an instance method called `rotate()` that exchanges the `width` and the `height` of the rectangle
+	* Create an instance method called `double()` that multiplies the `width` and the `height` of the rectangle by 2
