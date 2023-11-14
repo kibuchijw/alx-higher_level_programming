@@ -23,6 +23,7 @@
 | 5. Square #0 | [5-square.js](./5-square.js) |
 | 6. Square #1 | [6-square.js](./6-square.js) |
 | 7. Occurrences | [7-occurrences.js](./7-occurrences.js) |
+| 8. Esrever | [8-esrever.js](./8-esrever.js) |
 
 ## Tasks
 ### 0. Rectangle #0
@@ -72,3 +73,7 @@
 ### 7. Occurrences
 * A function that returns the number of occurrences in a list:
 	* Prototype: `exports.nbOccurences = function (list, searchElement)`
+### 8. Esrever
+* A function that returns the reversed version of a list:
+	* Prototype: `exports.esrever = function (list)`
+	* You are not allowed to use the built-in method `reverse`
