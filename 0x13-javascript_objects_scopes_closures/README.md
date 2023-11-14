@@ -22,6 +22,7 @@
 | 4. Rectangle #4 | [4-rectangle.js](./4-rectangle.js) |
 | 5. Square #0 | [5-square.js](./5-square.js) |
 | 6. Square #1 | [6-square.js](./6-square.js) |
+| 7. Occurrences | [7-occurrences.js](./7-occurrences.js) |
 
 ## Tasks
 ### 0. Rectangle #0
@@ -68,3 +69,6 @@
 	* You must use the `class` notation for defining class and `extends`
 	* Create an instance method called `charPrint(c)` that prints the rectangle using the character `c`
 		* If `c` is `undefined`, use the character `X`
+### 7. Occurrences
+* A function that returns the number of occurrences in a list:
+	* Prototype: `exports.nbOccurences = function (list, searchElement)`
