@@ -40,6 +40,7 @@
 | 14. Const or not const | [100-let_me_const.js](./100-let_me_const.js) |
 | 15. Call me Moby | [101-call_me_moby.js](./101-call_me_moby.js) |
 | 16. Add me maybe | [102-add_me_maybe.js](./102-add_me_maybe.js) |
+| 17. Increment object | [103-object_fct.js](./103-object_fct.js) |
 
 ## Tasks
 ### 0. First constant, first print
@@ -144,4 +145,7 @@
 * A function that increments and calls a function.
 	* The function must be visible from outside
 	* Prototype: `function (number, theFunction)`
+	* You are not allowed to use `var`
+### 17. Increment object
+* Update script given by adding a new function `incr` that increments the integer `value`.
 	* You are not allowed to use `var`
