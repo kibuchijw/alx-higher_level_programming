@@ -39,6 +39,7 @@
 | 13. Add file | [13-add.js](./13-add.js) |
 | 14. Const or not const | [100-let_me_const.js](./100-let_me_const.js) |
 | 15. Call me Moby | [101-call_me_moby.js](./101-call_me_moby.js) |
+| 16. Add me maybe | [102-add_me_maybe.js](./102-add_me_maybe.js) |
 
 ## Tasks
 ### 0. First constant, first print
@@ -138,4 +139,9 @@
 * A function that executes `x` times a function.
 	* The function must be visible from outside
 	* Prototype: `function (x, theFunction)`
+	* You are not allowed to use `var`
+### 16. Add me maybe
+* A function that increments and calls a function.
+	* The function must be visible from outside
+	* Prototype: `function (number, theFunction)`
 	* You are not allowed to use `var`
