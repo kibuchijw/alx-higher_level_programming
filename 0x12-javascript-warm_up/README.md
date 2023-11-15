@@ -37,6 +37,7 @@
 | 11. Second biggest! | [11-second_biggest.js](./11-second_biggest.js) |
 | 12. Object | [12-object.js](./12-object.js) |
 | 13. Add file | [13-add.js](./13-add.js) |
+| 14. Const or not const | [100-let_me_const.js](./100-let_me_const.js) |
 
 ## Tasks
 ### 0. First constant, first print
@@ -130,3 +131,5 @@
 	* The function must be visible from outside
 	* The name of the function must be `add`
 	* You are not allowed to use `var`
+### 14. Const or not const
+* A file that modifies the value of `myVar` to `333`
