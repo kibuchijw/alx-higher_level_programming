@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
-Lists all states with a name starting
-with N(upper N) from the  database hbtn_0e_0_usa 
+Lists all states where name matches argument passed,
+from the  database hbtn_0e_0_usa 
 """
 import sys
 import MySQLdb
@@ -13,14 +13,16 @@ if __name__ == "__main__":
             port=3306,
             user=sys.argv[1],
             password=sys.argv[2],
-            database=sys.argv[3]
+            database=sys.argv[3],
             )
 
     # Get a cursor object
     cursor = db.cursor()
 
+    # SQL query to match argument taken in from user
+    sql_query = "SELECT * FROM states WHERE name LIKE '{}%' ORDER BY id ASC"
     # Execute the SQL query to list all states
-    cursor.execute("SELECT * FROM states WHERE name LIKE 'N%' ORDER BY id ASC")
+    cursor.execute(sql_query.format(sys.argv[4]))
 
     # Fetch all results
     results = cursor.fetchall()
