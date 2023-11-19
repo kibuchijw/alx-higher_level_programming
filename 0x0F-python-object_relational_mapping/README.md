@@ -23,6 +23,8 @@
 | 7. All states via SQLAlchemy | [7-model_state_fetch_all.py](./7-model_state_fetch_all.py) |
 | 8. First state | [8-model_state_fetch_first.py](./8-model_state_fetch_first.py) |
 | 9. Contains `a` | [9-model_state_filter_a.py](./9-model_state_filter_a.py) |
+| 10. Get a state | [10-model_state_my_get.py](./10-model_state_my_get.py) |
+
 ## Tasks
 ### 0. Get all states
 * A script that lists all `states` from the database `hbtn_0e_0_usa`:
@@ -113,3 +115,14 @@
 	* Results must be sorted in ascending order by `states.id`
 	* The results must be displayed as they are in the example given
 	* Your code should not be executed when imported
+### 10. Get a state
+* A script that prints the `State` object with the `name` passed as argument from the database `hbtn_0e_6_usa`	
+	* Your script should take 4 arguments: `mysql username`, `mysql password` `database name` and `state name to search`(SQL injection free)
+	* You must use the module `SQLAlchemy`
+	* You must import `State` and `Base` from `model_state`-`from model_state import Base, State`
+	* Your script should connect to a MySQL server running on `localhost` at port `3306`
+	* You can assume you have one record with the state name to search
+	* Results must display the `states.id`
+	* If no state has the name you searched for, display `Not found`
+	* Your code should not be executed when imported
+	
