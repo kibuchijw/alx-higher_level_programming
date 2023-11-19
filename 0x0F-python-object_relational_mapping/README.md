@@ -24,6 +24,7 @@
 | 8. First state | [8-model_state_fetch_first.py](./8-model_state_fetch_first.py) |
 | 9. Contains `a` | [9-model_state_filter_a.py](./9-model_state_filter_a.py) |
 | 10. Get a state | [10-model_state_my_get.py](./10-model_state_my_get.py) |
+| 11. Add a new state | [11-model_state_insert.py](./11-model_state_insert.py) |
 
 ## Tasks
 ### 0. Get all states
@@ -125,4 +126,11 @@
 	* Results must display the `states.id`
 	* If no state has the name you searched for, display `Not found`
 	* Your code should not be executed when imported
-	
+### 11. Add a new state
+* A script that adds the `State` object "Louisiana" to the database `hbtn_0e_6_usa`
+	* Your script should take 3 arguments: `mysql username`, `mysql password` and  `database name`
+	* You must use the module `SQLAlchemy`
+	* You must import `State` and `Base` from `model_state`-`from model_state import Base, State`
+	* Your script should connect to a MySQL server running on `localhost` at port `3306`
+	* Print the new `states.id` after creation
+	* Your code should not be executed when imported
