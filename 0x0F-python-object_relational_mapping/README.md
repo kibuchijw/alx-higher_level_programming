@@ -20,6 +20,8 @@
 | 4. Cities by states | [4-cities_by_state.py](./4-cities_by_state.py) |
 | 5. All cities by state | [5-filter_cities.py](./5-filter_cities.py) |
 | 6. First state model | [model_state.py](./model_state.py) |
+| 7. All states via SQLAlchemy | [7-model_state_fetch_all.py](./7-model_state_fetch_all.py) |
+| 8. First state | [8-model_state_fetch_first.py](./8-model_state_fetch_first.py) |
 
 ## Tasks
 ### 0. Get all states
@@ -82,3 +84,23 @@
 	* You must use the module `SQLAlchemy`
 	* Your script should connect to a MySQL server running on `localhost` at port `3306`
 	* **WARNING**: all classes who inherit from `Base` **must** be imported before calling `Base.metadata.create_all(engine)`
+### 7. All states via SQLAlchemy
+* A script that lists all `State` objects from the database `hbtn_0e_6_usa`
+	* Your script should take 3 arguments: `mysql username`, `mysql password` and `database name`
+	* You must use the module `SQLAlchemy`
+	* You must import `State` and `Base` from `model_state`-`from model_state import Base, State`
+	* Your script should connect to a MySQL server running on `localhost` at port `3306`
+	* Results must be sorted in ascending order by `states.id`
+	* The results must be displayed as they are in the example given
+	* Your code should not be executed when imported
+### 8. First state
+* A script that prints the first `State` object from the database `hbtn_0e_6_usa`
+	* Your script should take 3 arguments: `mysql username`, `mysql password` and `database name`
+	* You must use the module `SQLAlchemy`
+	* You must import `State` and `Base` from `model_state`-`from model_state import Base, State`
+	* Your script should connect to a MySQL server running on `localhost` at port `3306`
+	* The state you display must be the first in `states.id`
+	* You are not allowed to fetch all states from the database before displaying the result
+	* The results must be displayed as they are in the example given
+	* If the table `states` is empty, print `Nothing` followed by a new line
+	* Your code should not be executed when imported
