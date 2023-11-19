@@ -19,6 +19,7 @@
 | 3. SQL Injection... | [3-my_safe_filter_states.py](./3-my_safe_filter_states.py) |
 | 4. Cities by states | [4-cities_by_state.py](./4-cities_by_state.py) |
 | 5. All cities by state | [5-filter_cities.py](./5-filter_cities.py) |
+| 6. First state model | [model_state.py](./model_state.py) |
 
 ## Tasks
 ### 0. Get all states
@@ -71,3 +72,13 @@
 	* You can only use `execute()` once
 	* Results must be displayed as they are in the example given
 	* Your code should not be executed when imported
+### 6. First state model
+* A python file that contains the class definition of a `State` and an instance `Base = declarative_base()`:
+	* `State` class:
+		* inherits from `Base`[Tips](https://docs.sqlalchemy.org/en/13/orm/extensions/declarative/basic_use.html)
+		* links to the MySQL table `states`
+		* class attribute `id` that represents a column of an auto-generated, unique integer, can't be null and is a primary key
+		* class attribute `name` that represents a column of a string with maximum 128 characters and can't be null
+	* You must use the module `SQLAlchemy`
+	* Your script should connect to a MySQL server running on `localhost` at port `3306`
+	* **WARNING**: all classes who inherit from `Base` **must** be imported before calling `Base.metadata.create_all(engine)`
