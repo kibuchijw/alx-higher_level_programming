@@ -17,6 +17,7 @@
 | 1. Filter states | [1-filter_states.py](./1-filter_states.py) |
 | 2. Filter states by user input | [2-my_filter_states.py](./2-my_filter_states.py) |
 | 3. SQL Injection... | [3-my_safe_filter_states.py](./3-my_safe_filter_states.py) |
+| 4. Cities by states | [4-cities_by_state.py](./4-cities_by_state.py) |
 
 ## Tasks
 ### 0. Get all states
@@ -51,3 +52,13 @@
 	* Results must be sorted in ascending order by `states.id`
 	* Results must be displayed as they are in the template given
 	* Your code should not be executed when imported
+### 4. Cities by states
+* A script that lists all `cities` from the database `hbtn_0e_4_usa`
+	* Your script should take 3 arguments: `mysql username`, `mysql password` and `database name`
+	* You must use the module `MySQLdb`(`import MySQLdb`)
+	* Your script should connect to a MySQL server running on `localhost` at port `3306`
+	* Results must be sorted in ascending order by `cities.id`
+	* You can only use `execute()` once
+	* Results must be displayed as they are in the template given
+	* Your code should not be executed when imported
+
