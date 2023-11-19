@@ -20,7 +20,13 @@ if __name__ == "__main__":
 
     # Execute the SQL query to list all states
     cursor.execute("SELECT * FROM states ORDER BY id ASC")
-    [print(state) for state in c.fetchall()]
+
+    # Fetch all results
+    results = cursor.fetchall()
+
+    # Print the results
+    for result in results:
+        print(f"({result[0] }, '{result[1]}')")
 
     # Close the cursor and the database connection
     cursor.close()
