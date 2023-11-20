@@ -25,6 +25,8 @@
 | 9. Contains `a` | [9-model_state_filter_a.py](./9-model_state_filter_a.py) |
 | 10. Get a state | [10-model_state_my_get.py](./10-model_state_my_get.py) |
 | 11. Add a new state | [11-model_state_insert.py](./11-model_state_insert.py) |
+| 12. Update a state | [12-model_state_update_id_2.py](./12-model_state_update_id_2.py) |
+| 13. Delete states | [13-model_state_delete_a.py](./13-model_state_delete_a.py) |
 
 ## Tasks
 ### 0. Get all states
@@ -133,4 +135,19 @@
 	* You must import `State` and `Base` from `model_state`-`from model_state import Base, State`
 	* Your script should connect to a MySQL server running on `localhost` at port `3306`
 	* Print the new `states.id` after creation
+	* Your code should not be executed when imported
+### 12. Update a state
+* A script that changes the name of a `State` object from the database `hbtn_0e_6_usa`
+	* Your script should take 3 arguments: `mysql username`, `mysql password` and  `database name`
+	* You must use the module `SQLAlchemy`
+	* You must import `State` and `Base` from `model_state`-`from model_state import Base, State`
+	* Your script should connect to a MySQL server running on `localhost` at port `3306`
+	* Change the name of the `State` where `id=2` to `New Mexico`
+	* Your code should not be executed when imported
+### 13. Delete states
+* A script that deletes all `State` objects with a name containing the letter `a` from the database `hbtn_0e_6_usa`	
+	* Your script should take 3 arguments: `mysql username`, `mysql password` and  `database name`
+	* You must use the module `SQLAlchemy`
+	* You must import `State` and `Base` from `model_state`-`from model_state import Base, State`
+	* Your script should connect to a MySQL server running on `localhost` at port `3306`
 	* Your code should not be executed when imported
