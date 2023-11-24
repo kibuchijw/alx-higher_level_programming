@@ -11,7 +11,7 @@
 * How to map a Python Class to a MySQL table
 * How to create a Python Virtual Environment
 
-| Task | File |
+| Task | File(s) |
 | ---- | ---- |
 | 0. Get all states | [0-select_states.py](./0-select_states.py) |
 | 1. Filter states | [1-filter_states.py](./1-filter_states.py) |
@@ -27,6 +27,7 @@
 | 11. Add a new state | [11-model_state_insert.py](./11-model_state_insert.py) |
 | 12. Update a state | [12-model_state_update_id_2.py](./12-model_state_update_id_2.py) |
 | 13. Delete states | [13-model_state_delete_a.py](./13-model_state_delete_a.py) |
+| 14. Cities in state | [model_city.py](./model_city.py), [14-model_city_fetch_by_state.py](./14-model_city_fetch_by_state.py) |
 
 ## Tasks
 ### 0. Get all states
@@ -150,4 +151,21 @@
 	* You must use the module `SQLAlchemy`
 	* You must import `State` and `Base` from `model_state`-`from model_state import Base, State`
 	* Your script should connect to a MySQL server running on `localhost` at port `3306`
+	* Your code should not be executed when imported
+### 14. Cities in state
+* A Python file similar to `model_state.py` named `model_city.py` that contains the class definition of a `City`.
+	* `City` class:
+		* inherits from `Base`(imported from `model_state`)
+		* links to the MySQL table `cities`
+		* class attribute `id` that represents a column of an auto-generated, unique integer, can't be null and is a primary key
+		* class attribute `name` that represents a column of a string of 128 characters and can't be null
+		* class attribute `state_id` that represents a column of an integer, can't be null and is a foreign key to `states_id`
+	* You must use the module `SQLAlchemy`
+* Next, write a script [14-model_city_fetch_by_state.py](./14-model_city_fetch_by_state.py) that prints all `City` objects from the database `hbtn_0e_14_usa`:	
+	* Your script should take 3 arguments: `mysql username`, `mysql password` and  `database name`
+	* You must use the module `SQLAlchemy`
+	* You must import `State` and `Base` from `model_state`-`from model_state import Base, State`
+	* Your script should connect to a MySQL server running on `localhost` at port `3306`
+	* Results must be sorted in ascending order by `cities.id`
+	* Results must be displayed as they are in the example(`<state name>: (<city id>) <city name>`)
 	* Your code should not be executed when imported
