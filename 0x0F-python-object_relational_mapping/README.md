@@ -28,6 +28,7 @@
 | 12. Update a state | [12-model_state_update_id_2.py](./12-model_state_update_id_2.py) |
 | 13. Delete states | [13-model_state_delete_a.py](./13-model_state_delete_a.py) |
 | 14. Cities in state | [model_city.py](./model_city.py), [14-model_city_fetch_by_state.py](./14-model_city_fetch_by_state.py) |
+| 15. City relationship | [relationship_city.py](./relationship_city.py), [relationship_state.py](./relationship_state.py), [100-relationship_states_cities.py](./100-relationship_states_cities.py) |
 
 ## Tasks
 ### 0. Get all states
@@ -168,4 +169,17 @@
 	* Your script should connect to a MySQL server running on `localhost` at port `3306`
 	* Results must be sorted in ascending order by `cities.id`
 	* Results must be displayed as they are in the example(`<state name>: (<city id>) <city name>`)
+	* Your code should not be executed when imported
+### 15. City relationship
+* Improve the files `model_city.py` and `model_state.py`, and save them as `relationship_city.py` and `relationship_state.py`:
+	* `City` class:
+		* No change
+	* `State` class:
+		* In addition to previous requirements, the class attribute `cities` must represent a relationship with the class `City`. If the `State` object is deleted, all linked `City` objects must be automatically deleted. Also, the reference from a `City` object to his `State` should be named `state`
+	* You must use the module `SQLAlchemy`
+* Write a script that creates the `State`"California" with the `city`"San Francisco" from the database `hbtn_oe_100_usa`:
+	* Your script should take 3 arguments: `mysql username`, `mysql password` and `database name`
+	* You must use the module `SQLAlchemy`
+	* Your script should connect to a MySQL server running on `localhost` at port `3306`
+	* You must use the `cities` relationship for all `State` objects
 	* Your code should not be executed when imported
