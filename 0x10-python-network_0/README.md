@@ -28,6 +28,7 @@
 | 1. cURL to the end | [1-body.sh](./1-body.sh) |
 | 2. cURL Method | [2-delete.sh](./2-delete.sh) |
 | 3. cURL only methods | [3-methods.sh](./3-methods.sh) |
+| 4. cURL headers | [4-header.sh](./4-header.sh) |
 
 ## Tasks
 ### 0. cURL body size
@@ -43,4 +44,8 @@
     * You have to use `curl`
 ### 3. cURL only methods
 * A Bash script that takes in a URL and displays all HTTP methods the server will accept
+    * You have to use `curl`
+### 4. cURL headers
+* A Bash script that takes in a URL as an argument, sends a `GET` request to the URL, and displays the body of the response
+    * A header variable `X-School-User-Id` must be sent with the value `98`
     * You have to use `curl`
