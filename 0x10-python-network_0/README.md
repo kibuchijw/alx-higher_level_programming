@@ -29,6 +29,10 @@
 | 2. cURL Method | [2-delete.sh](./2-delete.sh) |
 | 3. cURL only methods | [3-methods.sh](./3-methods.sh) |
 | 4. cURL headers | [4-header.sh](./4-header.sh) |
+| 5. cURL POST parameters | [5-post_params.sh](./5-post_params.sh) |
+| 6. Find a peak | [6-peak.py](./6-peak.py), [6-peak.txt](./6-peak.txt) |
+| 7. Only status code | [100-status_code.sh](./100-status_code.sh) |
+| 8. cURL a JSON file | [101-post_json.sh](./101-post_json.sh) |
 
 ## Tasks
 ### 0. cURL body size
@@ -48,4 +52,18 @@
 ### 4. cURL headers
 * A Bash script that takes in a URL as an argument, sends a `GET` request to the URL, and displays the body of the response
     * A header variable `X-School-User-Id` must be sent with the value `98`
+    * You have to use `curl`
+### 5. cURL POST parameters
+* A Bash script that takes in a URL, sends a `POST` request to the passed URL, and displays the body of the response
+    * A variable `email` must be sent with the value `test@gmail.com`
+    * A variable `subject` must be sent with the value `I will always be here for PLD`
+    * You have to use `curl`
+### 7. Only status code
+* A Bash script that sends a request to a URL passed as an argument and displays only the status code of the response.
+    * You are not allowed to use any pipe, redirection, etc.
+    * You are not allowed to use `;` and `&&`
+    * You have to use `curl`
+### 8. cURL a JSON File
+* A Bash script that sends a JSON `POST` request to a URL passed as the first argument, and displays the body of the response.
+    * Your script must send a `POST` request with the contents of a file, passed with the filename as the second argument of the script, in the body of the request
     * You have to use `curl`
