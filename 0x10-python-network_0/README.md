@@ -26,6 +26,7 @@
 | ---- | ---- |
 | 0. cURL body size | [0-body_size.sh](./0-body_size.sh) |
 | 1. cURL to the end | [1-body.sh](./1-body.sh) |
+| 2. cURL Method | [2-delete.sh](./2-delete.sh) |
 
 ## Tasks
 ### 0. cURL body size
@@ -35,4 +36,7 @@
 ### 1. cURL to the end
 * A Bash script that takes in a URL, sends a `GET` request to the URL, and displays the body of the response
     * Display only body of a `200` status code response
+    * You have to use `curl`
+### 2. cURL Method
+* A Bash script that sends a `DELETE` request to the the URL passed as the first argument and displays the body of the response
     * You have to use `curl`
