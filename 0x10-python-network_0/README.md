@@ -27,6 +27,7 @@
 | 0. cURL body size | [0-body_size.sh](./0-body_size.sh) |
 | 1. cURL to the end | [1-body.sh](./1-body.sh) |
 | 2. cURL Method | [2-delete.sh](./2-delete.sh) |
+| 3. cURL only methods | [3-methods.sh](./3-methods.sh) |
 
 ## Tasks
 ### 0. cURL body size
@@ -39,4 +40,7 @@
     * You have to use `curl`
 ### 2. cURL Method
 * A Bash script that sends a `DELETE` request to the the URL passed as the first argument and displays the body of the response
+    * You have to use `curl`
+### 3. cURL only methods
+* A Bash script that takes in a URL and displays all HTTP methods the server will accept
     * You have to use `curl`
