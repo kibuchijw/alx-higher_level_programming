@@ -21,6 +21,7 @@
 | 4. What's my status? #1 | [4-hbtn_status.py](./4-hbtn_status.py) |
 | 5. Response header value #1 | [5-hbtn_header.py](./5-hbtn_header.py) |
 | 6. POST an email #1 | [6-post_email.py](./6-post_email.py) |
+| 7. Error code #1 | [7-error_code.py](./7-error_code.py) |
 
 ## Tasks
 ### 0. What's my status? #0
@@ -67,3 +68,9 @@
     * You must use the package `requests` and `sys`
     * You are not allowed to import packages other than `requests` and `sys`
     * You don't need to erro check arguments passed to the script(number or type)
+### 7. Error code #1
+* A Python script that takes in a URL, sends a request to the URL and displays the body of the response.
+    * If the HTTP status code is greater than or equal to 400, print: `Erro code:` followed by the value of the HTTP status code
+    * You must use the packages `requests` and `sys`
+    * You are not allowed to import packages other than `requests` and `sys`
+    * You don't need to check arguments passed to the script (number or type)
