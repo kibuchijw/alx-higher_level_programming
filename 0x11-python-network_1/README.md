@@ -16,6 +16,7 @@
 | ---- | ---- |
 | 0. What's my status? #0 | [0-hbtn_status.py](./0-hbtn_status.py) |
 | 1. Response header value #0 | [1-hbtn_header.py](./1-hbtn_header.py) |
+| 2. POST an email #0 | [2-post_email.py](./2-post_email.py) |
 
 ## Tasks
 ### 0. What's my status? #0
@@ -31,3 +32,10 @@
     * The value of this variable is different for each request
     * You don't need to check arguments passed to the script(number of type)
     * You must use a `with` statement
+### 2. POST an email #0
+* A Python script that takes in a URL and an email, sends a `POST` request to the passed URL with the email as a parameter, and displays the body of the response(decoded in `utf-8`)
+    * The email must be sent in the `email` variable
+    * You must use the packages `urllib` and `sys`
+    * You are not allowed to import packages other than `urllib` and `sys`
+    * You don't need to check arguments passed to the script(number of type)
+    * You must use the `with` statement
