@@ -17,6 +17,7 @@
 | 0. What's my status? #0 | [0-hbtn_status.py](./0-hbtn_status.py) |
 | 1. Response header value #0 | [1-hbtn_header.py](./1-hbtn_header.py) |
 | 2. POST an email #0 | [2-post_email.py](./2-post_email.py) |
+| 3. Error code #0 | [3-error_code.py](./3-error_code.py) |
 
 ## Tasks
 ### 0. What's my status? #0
@@ -38,4 +39,11 @@
     * You must use the packages `urllib` and `sys`
     * You are not allowed to import packages other than `urllib` and `sys`
     * You don't need to check arguments passed to the script(number of type)
+    * You must use the `with` statement
+### 3. Error code #0
+* A Python script that takes in a URL, sends a request to the URL and displays the body of the response(decoded in `utf-8`).
+    * You have to manage `urllib.error.HTTPError` exceptions and print: `Error code:` folowed by the HTTP status code
+    * You must use the packages `urllib` and `sys`
+    * You are not allowed to import other packages than `urllib` and `sys`
+    * You don't need to check arguments passed to the script(number or type)
     * You must use the `with` statement
