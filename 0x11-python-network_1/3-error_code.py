@@ -8,15 +8,16 @@ import urllib.request
 import urllib.error
 import sys
 
-# Fetching URL from command line argument
-url = sys.argv[1]
+if __name__ == "__main__":
+    # Fetching URL from command line argument
+    url = sys.argv[1]
 
-# Making a GET request to the provided URL
-try:
-    with urllib.request.urlopen(url) as response:
-        # Reading and decoding the body of the response
-        body = response.read().decode('utf-8')
-        print(body)
-except urllib.error.HTTPError as e:
-    # Handling HTTPError and printing the status code
-    print(f"Error code: {e.code}")
+    # Making a GET request to the provided URL
+    try:
+        with urllib.request.urlopen(url) as response:
+            # Reading and decoding the body of the response
+            body = response.read().decode('utf-8')
+            print(body)
+    except urllib.error.HTTPError as e:
+        # Handling HTTPError and printing the status code
+        print(f"Error code: {e.code}")
