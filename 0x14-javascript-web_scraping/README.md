@@ -14,6 +14,7 @@
 | 0. Readme | [0-readme.js](./0-readme.js) |
 | 1. Write me | [1-writeme.js](./1-writeme.js) |
 | 2. Status code | [2-statuscode.js](./2-statuscode.js) |
+| 3. Star wars movie title | [3-starwars_title.js](./3-starwars_title.js) |
 
 ## Tasks
 ### 0. Readme
@@ -31,4 +32,9 @@
 * Write a script that displays the status code of a `GET` request.
     * The first argument is the URL to request(`GET`)
     * The status code must be printed like this: `code: <status code>`
+    * You must use the module `request`
+### 3. Star wars movie title
+* Write a script that prints the title of a Star Wars movie where the episode number matches a given integer.
+    * The first argument is the movie ID
+    * You must use the [Star wars API](https://swapi-api.alx-tools.com/) with the endpoint `https://swapi-api.alx-tools.com/api/films/:id`
     * You must use the module `request`
