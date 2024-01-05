@@ -19,6 +19,7 @@
 | 5. Loripsum | [5-request_store.js](./5-request_store.js) |
 | 6. How many completed? | [6-completed_tasks.js](./6-completed_tasks.js) |
 | 7. Who was playing in this movie? | [100-starwars_characters.js](./100-starwars_characters.js) |
+| 8. Right order | [101-starwars_characters.js](./101-starwars_characters.js) |
 
 ## Tasks
 ### 0. Readme
@@ -62,5 +63,11 @@
 * Write a script that prints all characters of a Star Wars movie:
     * The first argument is the Movie ID - example: `3` = “Return of the Jedi”
     * Display one character name by line
+    * You must use the [Star wars API](https://swapi-api.alx-tools.com/)
+    * You must use the module `request`
+### 8. Right order
+* Write a script that prints all characters of a Star Wars movie:
+    * The first argument is the Movie ID - example: `3` = “Return of the Jedi”
+    * Display one character name by line **in the same order of the list “characters” in the `/films/` response**
     * You must use the [Star wars API](https://swapi-api.alx-tools.com/)
     * You must use the module `request`
