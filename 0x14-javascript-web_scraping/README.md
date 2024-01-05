@@ -13,6 +13,7 @@
 | ---- | ---- |
 | 0. Readme | [0-readme.js](./0-readme.js) |
 | 1. Write me | [1-writeme.js](./1-writeme.js) |
+| 2. Status code | [2-statuscode.js](./2-statuscode.js) |
 
 ## Tasks
 ### 0. Readme
@@ -26,3 +27,8 @@
     * The second argument is the string to write
     * The content of the file must be written in `utf-8`
     * If an error occurred during the writing, print the error object
+### 2. Status code
+* Write a script that displays the status code of a `GET` request.
+    * The first argument is the URL to request(`GET`)
+    * The status code must be printed like this: `code: <status code>`
+    * You must use the module `request`
