@@ -15,15 +15,16 @@
 - How to make a `POST` request with JQuery Ajax
 - How to listen/bind to DOM events
 
-| Task                  | File                         |
-| --------------------- | ---------------------------- |
-| 0. No JQuery          | [0-script.js](./0-script.js) |
-| 1. With JQuery        | [1-script.js](./1-script.js) |
-| 2. Click and turn red | [2-script.js](./2-script.js) |
-| 3. Add `.red` class   | [3-script.js](./3-script.js) |
-| 4. Toggle classes     | [4-script.js](./4-script.js) |
-| 5. List of elements   | [5-script.js](./5-script.js) |
-| 6. Change the text    | [6-script.js](./6-script.js) |
+| Task                   | File                         |
+| ---------------------- | ---------------------------- |
+| 0. No JQuery           | [0-script.js](./0-script.js) |
+| 1. With JQuery         | [1-script.js](./1-script.js) |
+| 2. Click and turn red  | [2-script.js](./2-script.js) |
+| 3. Add `.red` class    | [3-script.js](./3-script.js) |
+| 4. Toggle classes      | [4-script.js](./4-script.js) |
+| 5. List of elements    | [5-script.js](./5-script.js) |
+| 6. Change the text     | [6-script.js](./6-script.js) |
+| 7. Star wars character | [7-script.js](./7-script.js) |
 
 ## Tasks
 
@@ -74,5 +75,12 @@
 ### 6. Change the text
 
 - Write a JavaScript script that updates the text of the `<header>` element to `New Header!!!` when the user clicks on `DIV#update_header`
+  - You can’t use `document.querySelector` to select the HTML tag
+  - You must use the JQuery API
+
+### 7. Star wars character
+
+- Write a JavaScript script that fetches the character `name` from this URL: `https://swapi-api.alx-tools.com/api/people/5/?format=json`
+  - The name must be displayed in the HTML tag `DIV#character`
   - You can’t use `document.querySelector` to select the HTML tag
   - You must use the JQuery API
