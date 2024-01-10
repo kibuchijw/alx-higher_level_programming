@@ -23,6 +23,7 @@
 | 3. Add `.red` class   | [3-script.js](./3-script.js) |
 | 4. Toggle classes     | [4-script.js](./4-script.js) |
 | 5. List of elements   | [5-script.js](./5-script.js) |
+| 6. Change the text    | [6-script.js](./6-script.js) |
 
 ## Tasks
 
@@ -67,5 +68,11 @@
 - Write a JavaScript script that adds a `<li>` element to a list when the user clicks on the tag `DIV#add_item`:
   - The new element must be: `<li>Item</li>`
   - The new element must be added to `UL.my_list`
+  - You can’t use `document.querySelector` to select the HTML tag
+  - You must use the JQuery API
+
+### 6. Change the text
+
+- Write a JavaScript script that updates the text of the `<header>` element to `New Header!!!` when the user clicks on `DIV#update_header`
   - You can’t use `document.querySelector` to select the HTML tag
   - You must use the JQuery API
