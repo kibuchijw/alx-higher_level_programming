@@ -25,6 +25,7 @@
 | 5. List of elements    | [5-script.js](./5-script.js) |
 | 6. Change the text     | [6-script.js](./6-script.js) |
 | 7. Star wars character | [7-script.js](./7-script.js) |
+| 8. Star Wars movies    | [8-script.js](./8-script.js) |
 
 ## Tasks
 
@@ -84,3 +85,11 @@
   - The name must be displayed in the HTML tag `DIV#character`
   - You can’t use `document.querySelector` to select the HTML tag
   - You must use the JQuery API
+
+### 8. Star Wars movies
+
+Write a JavaScript script that fetches and lists the `title` for all movies by using this URL: `https://swapi-api.alx-tools.com/api/films/?format=json`
+
+All movie titles must be list in the HTML tag `UL#list_movies`
+You can’t use `document.querySelector` to select the HTML tag
+You must use the JQuery API
