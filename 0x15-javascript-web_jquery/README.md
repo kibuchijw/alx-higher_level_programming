@@ -15,18 +15,19 @@
 - How to make a `POST` request with JQuery Ajax
 - How to listen/bind to DOM events
 
-| Task                   | File                         |
-| ---------------------- | ---------------------------- |
-| 0. No JQuery           | [0-script.js](./0-script.js) |
-| 1. With JQuery         | [1-script.js](./1-script.js) |
-| 2. Click and turn red  | [2-script.js](./2-script.js) |
-| 3. Add `.red` class    | [3-script.js](./3-script.js) |
-| 4. Toggle classes      | [4-script.js](./4-script.js) |
-| 5. List of elements    | [5-script.js](./5-script.js) |
-| 6. Change the text     | [6-script.js](./6-script.js) |
-| 7. Star wars character | [7-script.js](./7-script.js) |
-| 8. Star Wars movies    | [8-script.js](./8-script.js) |
-| 9. Say Hello!          | [9-script.js](./9-script.js) |
+| Task                            | File                             |
+| ------------------------------- | -------------------------------- |
+| 0. No JQuery                    | [0-script.js](./0-script.js)     |
+| 1. With JQuery                  | [1-script.js](./1-script.js)     |
+| 2. Click and turn red           | [2-script.js](./2-script.js)     |
+| 3. Add `.red` class             | [3-script.js](./3-script.js)     |
+| 4. Toggle classes               | [4-script.js](./4-script.js)     |
+| 5. List of elements             | [5-script.js](./5-script.js)     |
+| 6. Change the text              | [6-script.js](./6-script.js)     |
+| 7. Star wars character          | [7-script.js](./7-script.js)     |
+| 8. Star Wars movies             | [8-script.js](./8-script.js)     |
+| 9. Say Hello!                   | [9-script.js](./9-script.js)     |
+| 10. No jQuery - document loaded | [100-script.js](./100-script.js) |
 
 ## Tasks
 
@@ -101,3 +102,10 @@
   - You can’t use `document.querySelector` to select the HTML tag
   - You must use the JQuery API
   - Your script must work when it is imported from the `<head>` tag
+
+### 10. No jQuery - document loaded
+
+- Write a JavaScript script that updates the text color of the `<header>` element to red (`#FF0000`):
+  - You must use `document.querySelector` to select the HTML tag
+  - You can’t use the jQuery API
+  - Note: Your script must be imported from the `<head>` tag, not at the end of the HTML
