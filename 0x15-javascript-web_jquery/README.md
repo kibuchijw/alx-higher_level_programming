@@ -26,6 +26,7 @@
 | 6. Change the text     | [6-script.js](./6-script.js) |
 | 7. Star wars character | [7-script.js](./7-script.js) |
 | 8. Star Wars movies    | [8-script.js](./8-script.js) |
+| 9. Say Hello!          | [9-script.js](./9-script.js) |
 
 ## Tasks
 
@@ -88,8 +89,15 @@
 
 ### 8. Star Wars movies
 
-Write a JavaScript script that fetches and lists the `title` for all movies by using this URL: `https://swapi-api.alx-tools.com/api/films/?format=json`
+- Write a JavaScript script that fetches and lists the `title` for all movies by using this URL: `https://swapi-api.alx-tools.com/api/films/?format=json`
+  - All movie titles must be list in the HTML tag `UL#list_movies`
+  - You can’t use `document.querySelector` to select the HTML tag
+  - You must use the JQuery API
 
-All movie titles must be list in the HTML tag `UL#list_movies`
-You can’t use `document.querySelector` to select the HTML tag
-You must use the JQuery API
+### 9. Say Hello!
+
+- Write a JavaScript script that fetches from `https://hellosalut.stefanbohacek.dev/?lang=fr` and displays the value of `hello` from that fetch in the HTML tag `DIV#hello.`
+  - The translation of “hello” must be displayed in the HTML tag `DIV#hello`
+  - You can’t use `document.querySelector` to select the HTML tag
+  - You must use the JQuery API
+  - Your script must work when it is imported from the `<head>` tag
